@@ -9,13 +9,17 @@
   "success_url": "/ghost",
   "addons": [
     "jawsdb",
-    "mailgun",
-    "cloudinary"
+    "mailgun"
   ],
-  "env": {
+  "env": {    
     "APP_PUBLIC_URL": {
       "description": "The HTTPS URL of this app: either your custom domain or default 'herokuapp.com' hostname.",
       "value": "https://YOURAPPNAME.herokuapp.com"
+    },
+    "CLOUDINARY_URL": {
+      "description": "CLOUDINARY_URL of your Cloudinary account: https://cloudinary.com/",
+      "value": "",
+      "required": true
     },
     "S3_ACCESS_KEY_ID": {
       "description": "(Optional) Set your AWS Access Key ID to enable S3 file storage. Defaults to Cloudinary storage",
