@@ -22,12 +22,12 @@
       "required": false
     },
     "YOUR_CUSTOM_DATABASE_URL": {
-      "description": "Connect with your SQL database",
+      "description": "Connect with your SQL database.",
       "value": "",
       "required": false
     },
     "S3_ACCESS_KEY_ID": {
-      "description": "(Optional) Set your AWS Access Key ID to enable S3 file storage. Defaults to Cloudinary storage",
+      "description": "(Optional) Set your AWS Access Key ID to enable S3 file storage. Defaults to Cloudinary storage.",
       "required": false
     },
     "S3_ACCESS_SECRET_KEY": {
